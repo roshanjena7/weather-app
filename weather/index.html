@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="weather-app">
+        <header>
+            🌤️ Weather Today
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="locationInput" placeholder="Enter city name (e.g., London)" />
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+
+        <div class="weather-display">
+            <div class="icon">
+                <img id="weatherIcon" src="" alt="Weather Icon" />
+            </div>
+            <div class="temp-info">
+                <h1 id="tempC">--°C</h1>
+                <p id="weatherCondition">Clear Sky</p>
+                <h3 id="cityName">City</h3>
+            </div>
+
+            <div class="extra-info">
+                <div class="info-card">
+                    <i class="fas fa-tint"></i>
+                    <p>Humidity</p>
+                    <span id="humidity">--%</span>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-wind"></i>
+                    <p>Wind Speed</p>
+                    <span id="wind">-- kph</span>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-thermometer-half"></i>
+                    <p>Feels Like</p>
+                    <span id="feelsLike">--°C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
