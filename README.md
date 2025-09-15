@@ -54,3 +54,20 @@ You can get a free API key from [https://www.weatherapi.com/](https://www.weathe
 ```js
 const apiKey = 'YOUR_API_KEY_HERE';
 # 📁 Project Structure
+weather-app/
+│
+├── index.html       # Main HTML file
+├── style.css        # Custom CSS styles
+├── script.js        # JavaScript logic
+├── screenshot.png   # App preview screenshot
+└── README.md        # Documentation
+# ⭐ Contribute
+
+Feel free to fork the project, improve the design, or add new features such as:
+
+Animated background based on weather condition
+
+Multi-day forecast
+
+Temperature unit toggle (Celsius/Fahrenheit)
+Made with ❤️ by Roshan
